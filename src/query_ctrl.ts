@@ -18,6 +18,7 @@ export class AwsAthenaDatasourceQueryCtrl extends QueryCtrl {
         this.target.legendFormat = this.target.legendFormat || '';
         this.target.timeFormat = this.target.timeFormat || '';
         this.target.queryExecutionId = this.target.queryExecutionId || '';
+        this.target.queryName = this.target.queryName || '';
     }
 
     onChangeInternal() {

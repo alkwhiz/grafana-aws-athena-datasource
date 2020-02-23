@@ -5,9 +5,14 @@
                     ng-options="f as f for f in ['table', 'timeseries']"></select>
         </div>
 
-        <div class="gf-form gf-form--grow">
+        <div class="gf-form">
             <textarea class="gf-form-input" rows="1" ng-model="ctrl.target.queryExecutionId" spellcheck="false"
                       placeholder="query execution id" ng-blur="ctrl.onChangeInternal()"></textarea>
+        </div>
+
+        <div class="gf-form">
+            <textarea class="gf-form-input" rows="1" ng-model="ctrl.target.queryName" spellcheck="false"
+                      placeholder="query name" ng-blur="ctrl.onChangeInternal()"></textarea>
         </div>
     </div>
 
