@@ -98,7 +98,7 @@ export default class AwsAthenaDatasource extends DataSourceApi<AwsAthenaQuery, A
                     hide: target.hide,
                     datasourceId: this.id,
                     queryType: 'timeSeriesQuery',
-                    format: target.format || 'timeserie',
+                    format: target.format || 'timeseries',
                     region: this.templateSrv.replace(target.region, options.scopedVars) || this.defaultRegion,
                     timestampColumn: target.timestampColumn,
                     valueColumn: target.valueColumn,

@@ -150,7 +150,7 @@ func (t *AwsAthenaDatasource) handleQuery(tsdbReq *datasource.DatasourceRequest)
 		}
 
 		switch target.Format {
-		case "timeserie":
+		case "timeseries":
 			r, err := parseTimeSeriesResponse(&result, target.RefId, from, to, target.TimestampColumn, target.ValueColumn, target.LegendFormat, timeFormat)
 			if err != nil {
 				return nil, err
