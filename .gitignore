@@ -13,7 +13,6 @@ docs/GIT_BRANCH
 docs/VERSION
 docs/GITCOMMIT
 docs/changed-files
-docs/changed-files
 
 # locally required config files
 public/css/*.min.css
@@ -35,3 +34,4 @@ grafana
 
 # Test artifacts
 /dist/test/
+/dist/
